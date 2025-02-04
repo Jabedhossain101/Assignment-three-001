@@ -28,11 +28,16 @@
   <!-- header-section -->
 
   <header>
-    <nav class="flex items-center justify-between py-3 px 7 bg-[#FEF8EF] shadow-md">
+    <nav class="flex items-center justify-between py-3 px-7 bg-[#FEF8EF] shadow-md">
 
-      <div class="flex items-center">
-        <img src="c1-assets/logo-header.png" alt="" mr-1.5>
-        <span class="text-lg font-bold text-gray-700">Browse<span class="text-yellow-400">4</span>Pets</span>
+      <div class="flex items-center ml-2 gap-2">
+        <div>
+          <img src="c1-assets/logo-header.png" alt="" mr-1.5>
+        </div>
+        <div class="hidden md:flex text-gray-700 gap-3 items-center">
+          <span class="text-lg font-bold text-gray-700">Browse<span class="text-yellow-400">4</span>Pets</span>
+
+        </div>
 
       </div>
       <div class="hidden md:flex space-x-6 text-gray-700">
@@ -42,11 +47,13 @@
 
 
       </div>
-      <div class="flex space-x-4">
-        <button class="border px-4 py=2 rounded-md text-gray-700">Login</button>
+      <div class="hidden md:flex text-gray-700 gap-3 items-center">
+        <i class="fa-regular fa-bell"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button class="border px-4 py=2 rounded-md text-gray-700 py-2">Login</button>
         <button class="bg-yellow-400 px-4 py-2 rounded-md text-white font-bold">Register</button>
-        <button id="menu-btn" class="md:hidden text-2xl">&#9776;</button>
       </div>
+      <button id="menu-btn" class="md:hidden text-2xl mr-2">&#9776;</button>
 
     </nav>
     <section class=" relative flex flex-col items-center justify-between px-8 py-16 max-w-7xl mx-auto md:flex-col">
@@ -73,7 +80,8 @@
 
     </section>
   </header>
-
+  <br>
+  <br>
 
   <!-- Main section -->
 
