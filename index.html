@@ -45,13 +45,15 @@
       <div class="flex space-x-4">
         <button class="border px-4 py=2 rounded-md text-gray-700">Login</button>
         <button class="bg-yellow-400 px-4 py-2 rounded-md text-white font-bold">Register</button>
+        <button id="menu-btn" class="md:hidden text-2xl">&#9776;</button>
       </div>
 
     </nav>
-    <section class=" flex flex-col items-center justify-between px-8 py-16 max-w-7xl mx-auto">
+    <section class=" relative flex flex-col items-center justify-between px-8 py-16 max-w-7xl mx-auto md:flex-col">
 
-      <div class="lg:w-full z-2">
-        <h1 class="text-4xl font-bold text-gray-800 leading-tight">Pamper Your Pet, <br> Because They Deserve the Best
+      <div class="lg:w-full z-10">
+        <h1 class="text-4xl font-bold text-gray-800 leading-tight animate-fade-in">Pamper Your Pet, <br> Because They
+          Deserve the Best
         </h1>
         <p class="text-gray-600 mt-4">
           Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make
@@ -59,11 +61,12 @@
           wag with
           joy!
         </p>
-        <button class="mt-6 bg-yellow-400 text-white px-6 py-3 rounded-md text-lg font-semibold">Find a Pet</button>
+        <button class="mt-6 bg-yellow-400 text-white px-6 py-3 rounded-md text-lg font-semibold animate-bounce">Find a
+          Pet</button>
       </div>
       <!-- lg:w-1/2 flex justify-end z-3 mt-8 lg:mt-0 -->
       <!-- w-auto h-auto max-w-none md:max-w-[600px] lg:max-w-[700px] object-contain -->
-      <div class="-mt-32">
+      <div class="-mt-72">
         <img src="c1-assets/cat-big.png" alt=""
           class="w-auto h-auto max-w-full md:max-w-[600px] lg:max-w-[1000px] object-contain">
       </div>
@@ -267,6 +270,8 @@
       </div>
     </div>
   </footer>
+
+
 </body>
 
 </html>
